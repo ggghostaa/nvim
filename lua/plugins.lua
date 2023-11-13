@@ -61,6 +61,6 @@ packer.startup(
     -- surround
     use("ur4ltz/surround.nvim")
     -- toggleterm
-    -- use {"akinsho/toggleterm.nvim", tag = 'v2.*'}
+    use {"akinsho/toggleterm.nvim", tag = 'v2.*'}
 end)
 

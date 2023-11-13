@@ -254,6 +254,9 @@ pluginKeys.nvimTreeList = {
   {
     key = "s", action = "system_open" },
 }
+
+-- toggler pluginKeys
+map("n", "<space>t", ":ToggleTerm<CR>", opt)
 return pluginKeys
 
 

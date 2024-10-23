@@ -7,7 +7,7 @@ M.keyAttach = function(bufnr)
     noremap = true, silent = true, buffer = bufnr })
   end
   -- 绑定快捷键
-  require("keybindings").mapLSP(buf_set_keymap)
+  require("keymaps").mapLSP(buf_set_keymap)
 end
 
 -- 禁用格式化功能，交给专门插件插件处理

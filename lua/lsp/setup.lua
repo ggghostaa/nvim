@@ -33,11 +33,12 @@ mason.setup({
 -- mason-lspconfig uses the `lspconfig` server names in the APIs it exposes - not `mason.nvim` package names
 -- https://github.com/williamboman/mason-lspconfig.nvim/blob/main/doc/server-mapping.md
 mason_config.setup({
+  cmd = { "/usr/bin/clangd" },
 
   ensure_installed = {
 
     "lua_ls",
-    "clangd",
+    -- "clangd",
   },
 })
 

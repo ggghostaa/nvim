@@ -42,9 +42,11 @@ require("lazy").setup({
 	"williamboman/mason-lspconfig.nvim",
 	"neovim/nvim-lspconfig",
 	-- ui
-	{'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
-	{'nvim-tree/nvim-tree.lua', version="*", dependencies = {'nvim-tree/nvim-web-devicons' },
-	{ 'akinsho/toggleterm.nvim', version = "*" },
-	{'nvim-treesitter/nvim-treesitter', build = ":TSUpdate"}
+	{"akinsho/bufferline.nvim", version = "*", dependencies = "nvim-tree/nvim-web-devicons"},
+	{"nvim-tree/nvim-tree.lua", version="*", dependencies = {"nvim-tree/nvim-web-devicons" },
+	{ "akinsho/toggleterm.nvim", version = "*" },
+	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
+	{ "ur4ltz/surround.nvim", event = "VeryLazy"  },
+	{"windwp/nvim-autopairs", version = "*"},
   },
 })

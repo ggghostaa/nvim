@@ -48,5 +48,6 @@ require("lazy").setup({
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 	{ "ur4ltz/surround.nvim", event = "VeryLazy"  },
 	{"windwp/nvim-autopairs", version = "*"},
+	{"nvim-lualine/lualine.nvim", dependencies = { "nvim-tree/nvim-web-devicons" }},
   },
 })
